@@ -1,0 +1,66 @@
+<!doctype html> test
+<html>
+	<head>
+	<script src="scripts/script.js"></script>
+	<title>YahtZee</title>
+	
+	<style>
+	#d1, #d2, #d3, #d4, #d5{
+		float:left;
+		margin-right:5px;
+	}
+	</style>
+	
+	</head>
+	
+	<body>
+	<div id="dobbelstenen">
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+		<div id="d4"></div>
+		<div id="d5"></div>
+	</div>
+	
+	<br><br><br><br><br><br>
+	
+	<input type="button" value="Rollen" onclick="rollen()";>
+	
+	<div id="results">
+		<table>
+		<thead>Resultaten:</thead>
+		<tr>
+			<td>Chance:</td>
+			<td id="chance"></td>
+		</tr>
+		<tr>
+			<td>Full house: </td>
+			<td id="fullHouse"></td>
+		</tr>
+		<tr>
+			<td>3-of-a-kind: </td>
+			<td id="threeOFaKind"></td>
+		</tr>
+		<tr>
+			<td>Carre: </td>
+			<td id="carre"></td>
+		</tr>
+		<tr>
+			<td>Kleine straat: </td>
+			<td id="kleineStraat"></td>
+		</tr>
+		<tr>
+			<td>Grote straat: </td>
+			<td id="groteStraat"></td>
+		</tr>
+		<tr>
+			<td>Totaal aantal keren gegooit::</td>
+			<td id="Overige"></td>
+		</tr>
+		</table>
+		<div id="yahtzee"></div>
+	</div>
+	
+	</body>
+	
+</html>
